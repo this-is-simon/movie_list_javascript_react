@@ -16,13 +16,12 @@ class MovieBox extends Component {
 
   render(){
     return <div className="movie-box">
-      <MovieList />
+      <MovieList movies={this.state.movies}/>
+      <button>Get Showtimes >></button>
     </div>
 
+
   }
-
-
-
 }
 
 export default MovieBox;
